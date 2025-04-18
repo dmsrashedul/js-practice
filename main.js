@@ -60,3 +60,8 @@ let domain = "example.com";
 
 let email = `Your email is : ${username}@${domain}`;
 console.log(email);
+// Js Array
+let Heros = ["Osman", "2nd MD", "Khalid Bin Walid", "Alp Arslan", "Artugrul Gazi", "Salauddin Al Ayyubi"];
+for (let hr = 0; hr < Heros.length; hr++) {
+  console.log(Heros[hr]);
+}
