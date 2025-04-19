@@ -65,3 +65,7 @@ let Heros = ["Osman", "2nd MD", "Khalid Bin Walid", "Alp Arslan", "Artugrul Gazi
 for (let hr = 0; hr < Heros.length; hr++) {
   console.log(Heros[hr]);
 }
+Heros.pop();
+Heros.push("Salauddin");
+// Pop Method
+console.log(Heros);
