@@ -69,3 +69,38 @@ Heros.pop();
 Heros.push("Salauddin");
 // Pop Method
 console.log(Heros);
+// Array Sort
+Heros.sort();
+console.log(Heros);
+
+let num3 = [10, 20, 5, 25, 45, 55, 65, 1, 3, 100];
+num3.sort((a, b) => a - b);
+console.log(num3);
+//  Descending Order sort
+let num4 = [55, 45, 35, 25, 15, 5, 10, 20, 30, 40, 50];
+num4.sort((a, b) => b - a);
+console.log(num4);
+
+let students = [
+  { name: "Rahim", marks: 80 },
+  { name: "Karim", marks: 70 },
+  { name: "Salim", marks: 90 },
+  { name: "Sazim", marks: 60 },
+  { name: "Halim", marks: 50 },
+  { name: "Mahim", marks: 80 },
+];
+students.sort((a, b) => b.marks - a.marks);
+console.log(students);
+
+let names = ["Rahim", "Karim", "Salim"];
+names.reverse();
+console.log(names);
+
+// Math.min()
+let num5 = [1, 2, 3, 4, 5, 100, 200];
+let minValue = Math.min(...num5);
+let maxValue = Math.max(...num5);
+console.log(minValue);
+console.log(maxValue);
+
+//JS Array Iteration For Each
