@@ -104,3 +104,37 @@ console.log(minValue);
 console.log(maxValue);
 
 //JS Array Iteration For Each
+let num6 = [12, 13, 14, 15, 16, 17, 18, 19, 20];
+num6.forEach(function (num, index) {
+  console.log(`Index:${index}: num ${num}`);
+});
+
+// array map
+let numbers = [1, 2, 3];
+
+let squared = numbers.map(function (num) {
+  return num * num;
+});
+let double = numbers.map((num) => num * num);
+console.log(double);
+
+// Array Filter
+let num7 = [10, 11, 8, 12, 14, 18, 20, 21];
+let adult = num7.filter(function (age) {
+  return age >= 18;
+});
+console.log(adult);
+// Array Reduce
+
+let prices = [100, 200, 300];
+let total = prices.reduce((sum, current) => sum + current);
+
+console.log(total);
+// Array Key
+const fruits = ["Apple", "Banana", "Mango"];
+
+const keys = fruits.keys();
+
+for (const key of keys) {
+  console.log(key);
+}
