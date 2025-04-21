@@ -138,3 +138,18 @@ const keys = fruits.keys();
 for (const key of keys) {
   console.log(key);
 }
+// Js Random Practice
+let num8 = Math.floor(Math.random() * 20);
+console.log(num8);
+// Random Password Generator
+function generateRandomString(length) {
+  let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  let result = "";
+  for (let i = 0; i < length; i++) {
+    let randIndex = Math.floor(Math.random() * chars.length);
+    result += chars[randIndex];
+  }
+  return result;
+}
+
+console.log(generateRandomString(8));
