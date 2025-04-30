@@ -35,7 +35,6 @@ Hello!,
 This is a multi-line string.
 Using template literals is awesome!
 
-
 `;
 console.log(multiline);
 
@@ -153,3 +152,12 @@ function generateRandomString(length) {
 }
 
 console.log(generateRandomString(8));
+
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+let fruits = ["apple", "banana", "mango"];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
