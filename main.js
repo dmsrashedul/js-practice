@@ -60,7 +60,14 @@ let domain = "example.com";
 let email = `Your email is : ${username}@${domain}`;
 console.log(email);
 // Js Array
-let Heros = ["Osman", "2nd MD", "Khalid Bin Walid", "Alp Arslan", "Artugrul Gazi", "Salauddin Al Ayyubi"];
+let Heros = [
+  "Osman",
+  "2nd MD",
+  "Khalid Bin Walid",
+  "Alp Arslan",
+  "Artugrul Gazi",
+  "Salauddin Al Ayyubi",
+];
 for (let hr = 0; hr < Heros.length; hr++) {
   console.log(Heros[hr]);
 }
@@ -156,8 +163,17 @@ console.log(generateRandomString(8));
 for (let i = 1; i <= 5; i++) {
   console.log(i);
 }
-let fruits = ["apple", "banana", "mango"];
+let fruit = ["apple", "banana", "mango"];
 
 for (let i = 0; i < fruits.length; i++) {
   console.log(fruits[i]);
+}
+
+// Condition In details
+let Boyos = 12;
+
+if (Boyos >= 18) {
+  console.log("Tui Voter Hoite Parbi ");
+} else {
+  console.log("Hala Fider Kha Voter Hoye Ki Korbi");
 }
