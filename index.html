@@ -4,17 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learn Js With W3School</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem modi vero obcaecati, animi cum quas.</p>
-    <h1 id="js"></h1>
-    <button type="button" onclick="document.write(15+5)">Click Me</button>
-    <div class="alert">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-      This is an alert box.
+  <body class="magicpattern">
+    <!-- Moode Detector Apps -->
+    <div class="container mx-auto">
+      <div class="text-center">
+        <h2 class="text-2xl font-medium text-[#333333] mt-5">
+          Share Your Mood And Show Ai Opinion
+        </h2>
+        <div class="flex gap-2 item-center">
+          <input type="text" id="moodInput" placeholder="What's Your Mood" />
+          <button
+            class="text-xs p-2 rounded-xl backdrop-blur-md bg-teal text-[#666]"
+          >
+            Check Mood
+          </button>
+        </div>
+      </div>
     </div>
-    <button onclick="window.print()">Print this page</button>
 
     <script src="main.js"></script>
   </body>
