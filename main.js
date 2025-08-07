@@ -26,3 +26,8 @@ function frame() {
     box.style.left = pos + "px";
   }
 }
+
+// Show Result With Keyboard Event
+document.getElementById("inpuText").addEventListener("keyup", (event) => {
+  document.getElementById("result").innerHTML = event.target.value;
+});
